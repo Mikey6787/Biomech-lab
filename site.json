@@ -36,8 +36,8 @@
       "description": "Read and write C3D files with ezc3d, or drag a trial into the app. Save modified coordinates, events, and filtered channels into standard C3D files. Export marker and analog data to CSV and 3D surfaces to STL. Dedicated OpenSim workflow exports remain on the roadmap."
     },
     {
-      "title": "Five themes. Cross-platform design.",
-      "description": "Choose Biomech Dark, Clinical Light, Nordic Midnight, Graphite Slate, or Cyber Amber. Designed for macOS, Windows, and Linux. The downloadable build currently provided here is for Apple silicon macOS."
+      "title": "",
+      "description": ""
     }
   ],
   "roadmap": [
