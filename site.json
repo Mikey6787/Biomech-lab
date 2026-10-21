@@ -28,7 +28,7 @@
       "description": "Pick markers directly in 3D, with Alt/Option-click for multi-selection. Measure two-marker distances and three-marker angles with 3D overlays and synchronized curves. Inspect mean, SD, minimum, and maximum within a region of interest, or create midpoint marker trajectories."
     },
     {
-      "title": "Signal processing with undo & redo",
+      "title": "Signal processing",
       "description": "Apply zero-phase Butterworth low-pass filters to marker trajectories with adjustable cutoff and order. Filter analog signals, compute RMS envelopes, and rename or delete channels. Undo and redo marker filtering, renames, additions, and edits."
     },
     {
