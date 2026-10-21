@@ -1,0 +1,63 @@
+{
+  "hero_eyebrow": "Tools for human movement science",
+  "headline": "Explore movement. Discover more.",
+  "intro": "Open-source biomechanics software for the questions that move research forward. Visualize, measure, and refine your motion capture data with C3D Explorer.",
+  "app_name": "C3D Explorer",
+  "app_description": "C3D Explorer is a lightweight, cross-platform biomechanics desktop workstation for researchers, clinicians, and movement scientists. It brings real-time 3D optical marker visualization, synchronized analog and force plate plots, interactive gait event detection, marker trajectory filtering, and direct .c3d editing into a modern, hardware-accelerated environment—without requiring expensive proprietary motion capture software.",
+  "software_heading": "Your trial. Every detail.",
+  "roadmap_heading": "More ways to understand movement.",
+  "roadmap_intro": "Planned features and future software. These are not included in the current release.",
+  "about_heading": "Built around the research workflow.",
+  "author_name": "Dr. Mohamadreza Kharazi",
+  "author_bio": "Dr. Mohamadreza Kharazi is a researcher and biomechanics software developer at Universität Koblenz, Germany. His work specializes in human movement analysis, biomechanical modeling, clinical gait evaluation, and creating high-performance open-source tools for research, sports science, and rehabilitation.",
+  "features": [
+    {
+      "title": "3D OpenGL biomechanics viewport",
+      "description": "Animate optical markers with customizable radii, colors, and individual selection. View force plate geometry, local coordinate systems, and dynamic ground reaction force vectors from the center of pressure. Switch between isometric, top, front, side, and fit-to-data views."
+    },
+    {
+      "title": "Interactive timeline & events",
+      "description": "Scrub frame by frame in frames or seconds. Inspect color-coded right, left, and general events. Add, modify, or delete foot strikes, foot offs, and custom annotations with frame/time conversion and standard C3D event export."
+    },
+    {
+      "title": "Synchronized signal plotting",
+      "description": "Plot marker X, Y, Z and magnitude, force and moment components, COP, EMG, and other analog channels on a shared timeline. PyQtGraph renders raw samples without downsampling, with a synchronized playhead and hover inspection. Export CSV or high-resolution PNG figures."
+    },
+    {
+      "title": "Measurements & virtual markers",
+      "description": "Pick markers directly in 3D, with Alt/Option-click for multi-selection. Measure two-marker distances and three-marker angles with 3D overlays and synchronized curves. Inspect mean, SD, minimum, and maximum within a region of interest, or create midpoint marker trajectories."
+    },
+    {
+      "title": "Signal processing with undo & redo",
+      "description": "Apply zero-phase Butterworth low-pass filters to marker trajectories with adjustable cutoff and order. Filter analog signals, compute RMS envelopes, and rename or delete channels. Undo and redo marker filtering, renames, additions, and edits."
+    },
+    {
+      "title": "Native C3D editing & exports",
+      "description": "Read and write C3D files with ezc3d, or drag a trial into the app. Save modified coordinates, events, and filtered channels into standard C3D files. Export marker and analog data to CSV and 3D surfaces to STL. Dedicated OpenSim workflow exports remain on the roadmap."
+    },
+    {
+      "title": "Five themes. Cross-platform design.",
+      "description": "Choose Biomech Dark, Clinical Light, Nordic Midnight, Graphite Slate, or Cyber Amber. Designed for macOS, Windows, and Linux. The downloadable build currently provided here is for Apple silicon macOS."
+    }
+  ],
+  "roadmap": [
+    {
+      "title": "A path to OpenSim",
+      "description": "Planned marker trajectory and .mot exports to help move trials into an OpenSim workflow. Export formats are being finalized."
+    },
+    {
+      "title": "Force plate filtering",
+      "description": "Extend the filtering workflow to force plate signals for additional control over trial preparation."
+    },
+    {
+      "title": "Ultrasound, in focus",
+      "description": "Deep learning tools for locating and tracking the myotendinous junction (MTJ) in ultrasound images."
+    }
+  ],
+  "workspace_image": "/images/c3d-workspace.png",
+  "signals_image": "/images/c3d-signals.png",
+  "scholar_url": "https://scholar.google.com/citations?view_op=search_authors&mauthors=Mohamadreza+Kharazi",
+  "linkedin_url": "https://www.linkedin.com/in/mohamadreza-kharazi-23575285",
+  "support_url": "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mohamadreza.kharazi%40live.com&currency_code=EUR&amount=5.00&item_name=Buy+Me+a+Coffee+-+C3D+Explorer",
+  "download_url": ""
+}
